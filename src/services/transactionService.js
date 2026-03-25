@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = '/api/transactions';
+const API_URL = 'https://expense-backend-jade-three.vercel.app/api/transactions';
+
 
 const getTransactions = async () => {
   const response = await axios.get(API_URL);
